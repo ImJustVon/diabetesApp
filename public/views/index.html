@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="diabetesApp">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Diabetes App</title>
+
+        <!--vendors-->
+        <script src="/vendors/angular.min.js"></script>
+        <script src="/vendors/angular-route.min.js"></script>
+        <link rel="stylesheet" href="/vendors/bootstrap.min.css" />
+
+        <!--Angular setup-->
+        <script src="/scripts/app.module.js"></script>
+        <script src="/scripts/app.config.js"></script>
+
+        <!--Controllers-->
+        <script src="/scripts/controllers/login.controller.js"></script>
+        <script src="/scripts/controllers/register.controller.js"></script>
+
+        <base href="/" />
+
+    </head>
+
+    <body>
+        <ng-view></ng-view>
+    </body>
+
+</html>
