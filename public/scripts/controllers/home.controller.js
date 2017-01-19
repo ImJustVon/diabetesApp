@@ -4,5 +4,6 @@ angular.module('diabetesApp')
 function HomeController($http, $location) {
   console.log('HomeController loaded');
   var ctrl = this;
+  var lastBloodSugar;
 
 }
